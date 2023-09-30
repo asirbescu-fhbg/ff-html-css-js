@@ -4,5 +4,51 @@ h1 {
 }
 
 body {
-  background-image: url('images/witchhouse_url.txt');
+  background-image: url('images/witchhouse.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+div {
+  position: absolute;
+}
+
+.broom {
+  font-size: 10vh;
+  top: 70vh;
+  left: 15vw;
+  --transform: rotate(-30deg);
+}
+
+.cat {
+  font-size: 10vh;
+  top: 75vh;
+  left: 61.5vw;
+}
+
+.heart {
+  top: -12vh;
+  left: -0.5vw;
+  display: none;
+}
+
+.counter {
+  color: whitesmoke;
+  font-size: xx-large;
+  font-family: sans-serif;
+  left: 1vw;
+  bottom: 1vh;
+}
+
+img {
+  top: 2vh;
+  width: 15%;
+  height: 15%;
+  transform: rotate(10deg);
+}
+
+h1 + p {
+  margin-top: 150px;
 }
